@@ -2,7 +2,6 @@ import pandas as pd
 
 data=pd.read_csv(
     "C:/Users/brobu/OneDrive/Documents/Python/Data analysis libraray/Numpy/panda in library/datasets.csv"
-
 )
 
 print(f"the data of csv :\n {data}")

@@ -4,7 +4,11 @@ import qrcode
 data = "QR Code using make() function"
 
 # Encoding data using make() function
-img = qrcode.make("Hello my name is rabi budhathoki <br> well, you know all about me ,yes or know??")
+img = qrcode.make("Hello my name is rabi budhathoki\
+                   i am 19 years old and am  from ramechhape district\
+                  i completed my school level from 'Emmanuel english boarding school', my intermediate level from 'Khwopa secondary school' and currently studying my bachlor level in 'Sanothimi campus'\
+                  i u want to contact me \
+                  phone no:'9849737558' and Email : rabibudhathoki@gmail.com")
 
 # Saving as an image file
 img.save('MyQRCode1.png')

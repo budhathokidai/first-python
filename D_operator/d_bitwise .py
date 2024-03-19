@@ -16,4 +16,4 @@ print(bitwise_not)  # -6
 # Bitwise Left
 x = 5  # 1o1 in binary
 value = a << 2
-print("left", (value))  # left 0xa
+print("left", (value))  # left  0  

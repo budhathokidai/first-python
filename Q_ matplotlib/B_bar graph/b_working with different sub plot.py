@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 grade=["one","two","three","four","five"]
 students =[10,25,37,48,69]
 
-plt.subplot(131)
+plt.subplot(131)  #row col index
 plt.bar(grade,students)
 plt.subplot(132)
 plt.scatter(grade,students)

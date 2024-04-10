@@ -8,7 +8,6 @@ except TypeError as e:
 
 try:
 
-
     var = len(23)
 
 except TypeError as e:

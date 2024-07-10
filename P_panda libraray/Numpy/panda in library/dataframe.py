@@ -23,7 +23,7 @@ max_age = data["age"].max()
 print(f"The maximum age is :\n :{max_age}")
 
 
-##discribe()
+#describe
 
 describe =data.describe()
 print(f"Describe the details of data : \n{describe}")
